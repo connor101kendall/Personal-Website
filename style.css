@@ -551,6 +551,7 @@ section.education{
 	padding: 15px 0px 10px;
 	color: var(--main-heading-clr);
 	font-size: 22px;
+	white-space: nowrap;
 }
 .education-contents .education-box p{
 	color: var(--text-clr);
