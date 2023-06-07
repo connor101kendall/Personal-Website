@@ -676,6 +676,9 @@ section.projects{
 	object-fit: cover;
 	display: block;
 }
+#projectborder{
+	border: 2px solid white; 
+}
 .projects-contents .projects-post .post-date{
 	padding: 15px 0px;
 }
