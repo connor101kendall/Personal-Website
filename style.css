@@ -370,11 +370,10 @@ section.about{
 }
 .about-experience .experience-box {
 	position: relative;
-	cursor: pointer;
 	transition: transform 0.3s;
 }
 .about-experience .experience-box:hover {
-	transform: translateY(-5px);
+	transform: translateY(-2px);
 }
 .about-experience .experience-box .icon {
 	display: flex;
