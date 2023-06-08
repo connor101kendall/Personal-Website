@@ -929,6 +929,12 @@ section.page-footer{
 	.contact-contents .contact-form{
 		flex-basis: 100%;
 	}
+	.education-contents .education-box img{
+		width: 100%;
+		max-height:40%;
+		object-fit: cover;
+		display: inline-block;
+	}
 }
 
 @media(max-width: 668px){
