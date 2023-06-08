@@ -932,20 +932,38 @@ section.page-footer{
 }
 
 @media(max-width: 668px){
+	body{
+		display: flex;
+		min-width: 100%;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0
+	}
 	/* Education Section */
 	.education-contents .education-box{
-		flex-basis: 100%;
+		min-width: 100%;
+		box-sizing: border-box;
+	} 
+
+	.education-contents .education-box h2{
+		padding: 15px 0px 10px;
+		color: var(--main-heading-clr);
+		font-size: 22px;
+		white-space: normal;
 	}
-	/* Experience Section */
+	.education-contents .education-box p{
+		color: transparent;
+	}
+	/* experience Section */
 	.experience-contents .experience-box{
 		width: 100%;
 	}
-	/* Projects Section */
+	/* projects Section */
 	.projects .projects-contents{
 		grid-template-columns: 1fr;
 	}
-	/* Skills Section */
 	.skill-name{
 		text-decoration: underline;
 	}
+	
 }
