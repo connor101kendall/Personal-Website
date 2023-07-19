@@ -592,6 +592,17 @@ section.experience{
 	padding: 70px 8% 50px;
 	background-color: var(--bg-clr-1);
 }
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-desc h2, .experience-desc p {
+    margin: 0; /* Remove any default margin to avoid extra spacing */
+    line-height: 1.2; /* Adjust the line-height value to your preference */
+    text-align: left; 
+}
+
 .experience .experience-contents{
 	width: 100%;
 	display: flex;
